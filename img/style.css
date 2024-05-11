@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    container{
+        max-width: 1200px;
+        margin: 0 auto; 
+    }
+
+    .content {
+        background-color: #151517;
+        min-height: 80px;
+    }
+
+    .menu{
+        position:absolude;
+        top:10px;
+        left:0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-items: space-between;
+    }
+
+    .logo{
+        font-size: 25px;
+        color: #18C66A;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .mwnu .nabar ul li{
+        position: relative;
+        float:left;
+
+    }
+
+    .menu .navar ul li a{
+        font-size: 18px;
+        padding: 10px;
+        color: #FFFFFF;
+        display: block;
+        font-weight: bold;
+    }
+
+    .menu .navbar ul li a:hover{
+        color: #18C66A;
+
+    }
+    
+
+   
